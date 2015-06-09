@@ -10,6 +10,7 @@
 //#import "RegisterVC.h"
 //#import "LoginVC.h"
 #import "AppDelegate.h"
+#import "Utils.h"
 
 #define TURQUOISE [UIColor whiteColor]
 
@@ -62,6 +63,8 @@
 -(void)customizeView
 {
 //    [[UILabel appearanceWhenContainedIn:[self class], nil] setFont:[UIFont fontWithName:@"CCSamaritanTall" size:25.0]];
+    
+    [Utils addMotionEffectOnView:_imageView];
     
     [_buttonRegister.titleLabel setFont:[UIFont fontWithName:@"Arial" size:15.0]];
     [_buttonLogin.titleLabel setFont:[UIFont fontWithName:@"Arial" size:15.0]];

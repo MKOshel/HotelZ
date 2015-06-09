@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A0671A2E1B272DDF0001C274 /* Utils.m in Sources */ = {isa = PBXBuildFile; fileRef = A0671A2D1B272DDF0001C274 /* Utils.m */; };
+		A0671A301B272E6E0001C274 /* Sample Images in Resources */ = {isa = PBXBuildFile; fileRef = A0671A2F1B272E6E0001C274 /* Sample Images */; };
+		A0671A341B272EA70001C274 /* HotelGalleryController.m in Sources */ = {isa = PBXBuildFile; fileRef = A0671A321B272EA70001C274 /* HotelGalleryController.m */; };
+		A0671A351B272EA70001C274 /* HotelGalleryController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A0671A331B272EA70001C274 /* HotelGalleryController.xib */; };
+		A0671A381B2730780001C274 /* MJCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A0671A371B2730780001C274 /* MJCollectionViewCell.m */; };
+		A0671A3A1B2730C30001C274 /* resurse in Resources */ = {isa = PBXBuildFile; fileRef = A0671A391B2730C30001C274 /* resurse */; };
 		E26848731B26188500CA1723 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E26848721B26188500CA1723 /* main.m */; };
 		E26848761B26188500CA1723 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E26848751B26188500CA1723 /* AppDelegate.m */; };
 		E268487E1B26188500CA1723 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E268487D1B26188500CA1723 /* Images.xcassets */; };
@@ -30,6 +36,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		A0671A2C1B272DDF0001C274 /* Utils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Utils.h; sourceTree = "<group>"; };
+		A0671A2D1B272DDF0001C274 /* Utils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Utils.m; sourceTree = "<group>"; };
+		A0671A2F1B272E6E0001C274 /* Sample Images */ = {isa = PBXFileReference; lastKnownFileType = folder; path = "Sample Images"; sourceTree = "<group>"; };
+		A0671A311B272EA70001C274 /* HotelGalleryController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HotelGalleryController.h; path = ui/HotelGalleryController.h; sourceTree = "<group>"; };
+		A0671A321B272EA70001C274 /* HotelGalleryController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HotelGalleryController.m; path = ui/HotelGalleryController.m; sourceTree = "<group>"; };
+		A0671A331B272EA70001C274 /* HotelGalleryController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = HotelGalleryController.xib; path = ui/HotelGalleryController.xib; sourceTree = "<group>"; };
+		A0671A361B2730780001C274 /* MJCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJCollectionViewCell.h; sourceTree = "<group>"; };
+		A0671A371B2730780001C274 /* MJCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJCollectionViewCell.m; sourceTree = "<group>"; };
+		A0671A391B2730C30001C274 /* resurse */ = {isa = PBXFileReference; lastKnownFileType = folder; path = resurse; sourceTree = "<group>"; };
 		E268486D1B26188500CA1723 /* HotelZonne.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HotelZonne.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E26848711B26188500CA1723 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E26848721B26188500CA1723 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -87,11 +102,18 @@
 		E268486F1B26188500CA1723 /* HotelZonne */ = {
 			isa = PBXGroup;
 			children = (
+				A0671A2C1B272DDF0001C274 /* Utils.h */,
+				A0671A2D1B272DDF0001C274 /* Utils.m */,
 				E26848741B26188500CA1723 /* AppDelegate.h */,
 				E26848751B26188500CA1723 /* AppDelegate.m */,
 				E26848961B261A3700CA1723 /* TutorialViewController.h */,
 				E26848971B261A3700CA1723 /* TutorialViewController.m */,
 				E26848981B261A3700CA1723 /* TutorialViewController.xib */,
+				A0671A311B272EA70001C274 /* HotelGalleryController.h */,
+				A0671A321B272EA70001C274 /* HotelGalleryController.m */,
+				A0671A331B272EA70001C274 /* HotelGalleryController.xib */,
+				A0671A361B2730780001C274 /* MJCollectionViewCell.h */,
+				A0671A371B2730780001C274 /* MJCollectionViewCell.m */,
 				E268487D1B26188500CA1723 /* Images.xcassets */,
 				E268487F1B26188500CA1723 /* LaunchScreen.xib */,
 				E26848701B26188500CA1723 /* Supporting Files */,
@@ -102,6 +124,8 @@
 		E26848701B26188500CA1723 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				A0671A391B2730C30001C274 /* resurse */,
+				A0671A2F1B272E6E0001C274 /* Sample Images */,
 				E268489B1B26284B00CA1723 /* tutorialScreens */,
 				E26848711B26188500CA1723 /* Info.plist */,
 				E26848721B26188500CA1723 /* main.m */,
@@ -216,8 +240,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A0671A3A1B2730C30001C274 /* resurse in Resources */,
 				E26848A01B2628A100CA1723 /* walk1@2x.jpg in Resources */,
 				E26848811B26188500CA1723 /* LaunchScreen.xib in Resources */,
+				A0671A301B272E6E0001C274 /* Sample Images in Resources */,
+				A0671A351B272EA70001C274 /* HotelGalleryController.xib in Resources */,
 				E26848A31B262E9D00CA1723 /* walk3@2x.jpg in Resources */,
 				E268489A1B261A3700CA1723 /* TutorialViewController.xib in Resources */,
 				E268487E1B26188500CA1723 /* Images.xcassets in Resources */,
@@ -242,6 +269,9 @@
 				E26848761B26188500CA1723 /* AppDelegate.m in Sources */,
 				E26848991B261A3700CA1723 /* TutorialViewController.m in Sources */,
 				E26848731B26188500CA1723 /* main.m in Sources */,
+				A0671A381B2730780001C274 /* MJCollectionViewCell.m in Sources */,
+				A0671A2E1B272DDF0001C274 /* Utils.m in Sources */,
+				A0671A341B272EA70001C274 /* HotelGalleryController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -430,6 +460,7 @@
 				E26848921B26188500CA1723 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E26848931B26188500CA1723 /* Build configuration list for PBXNativeTarget "HotelZonneTests" */ = {
 			isa = XCConfigurationList;
@@ -438,6 +469,7 @@
 				E26848951B26188500CA1723 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
